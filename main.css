@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("source/img5.jpg");
+    width: 1500px;
+    height: 100vh;
+    
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    position: relative;
+    width: 1519px;
+    align-content: center;
+    justify-content: end;
+    height: 90px;
+    color: white;
+    float: left;
+}
+
+/* logo */
+
+.logo{
+    float: left;
+    display: flex;
+    height: 90px;
+    width: 830px;
+    color: white;
+    margin-left: 15px;
+    align-items: center;
+}
+.txt{
+    /* background: rgb(192, 192, 9); */
+    border-radius: 4px;
+    text-decoration: underline;
+}
+.txt1{
+    text-decoration: underline;
+}
+.img1{
+    align-items: left;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 40px;
+}
+/* sub-menu */
+.sub-menu{
+    display: none;
+    list-style: nones;
+}
+
+.sub-menu:hover{
+    display: inline-flex;
+}
+
+/* list */
+.list{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+.lpage a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.lpage{
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    width: 9rem;
+    font-size: 20px;
+    padding-bottom: 10px;
+    /* padding: 8px; */
+    border-radius: 28px;
+}
+
+/* searchbox */
+
+li:hover{
+    font-size: 22px;
+    color:lightblue;
+    cursor: pointer;
+
+}
+
+.searchbox{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    font-size: 17px;
+    background: white;
+    border: 0px;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+}
+/* burger */
+.burger{
+    display: none;
+    transform:rotate(90deg);
+    color: white;
+    font-size: 25px;
+    z-index: 10001;
+}
+/* 
+.result-box ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+    width: 300px;
+
+}
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+}
+
+.result-box ul li:hover{
+    background: #e9f3ff;
+} */
+/* 
+.search{
+    display: flex;
+    align-items: center;
+
+} */
+
+input{
+    font-size: 16px;
+    border: 0px;
+    background: transparent;
+    margin-left: 15px;
+    flex: 1;
+    height: 30px;
+    outline: 0px;
+    width: 300px;
+
+}
+button{
+    cursor: pointer;
+    outline: 0px;
+    margin-right: 5px;
+    width: 20px;
+    border: 0px;
+    background: transparent;
+}
+
+button.fa-solid{
+    font-size: 22px;
+    width: 25px;
+}
+
+/* message */
+.msg{
+    display: grid;
+    align-content: center;
+    position: relative;
+    font-size: 35px;
+    color: white;
+    justify-content: center;
+    width:40vw ;
+    margin-top: 10px;
+    height: 70vh;
+    float: left;
+    
+
+}
+
+.msg h1{
+    color:rgb(234, 4, 234);
+}
+
+/* button */
+
+.btnp:hover{
+    background: rgb(238, 175, 59);
+    cursor: pointer;
+}
+
+.btnp{
+    margin-right: 20px;
+    position: relative;
+    margin-top: 16px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #ff6e31;
+    width: 160px;
+    height: 50px;
+    text-decoration: underline;
+}
+
+.btnp a{
+    text-decoration: none;
+    color: black;
+}
+
+/* content block right */
+.container{
+    position: relative;
+    display:flex;
+    float: right;
+    justify-content: space-around;
+    width: 50vw;
+    height: 70vh;
+}
+
+.content{
+    display: grid;
+    /* justify-content: center; */
+    /* align-content: space-around; */
+    /* margin-top: 5px; */
+    position: relative;
+    /* background-color: red; */
+    width: 250px;
+    height: 500px;
+}
+
+.img2{
+    justify-self: left;
+    border-radius: 5%;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+.txt2{
+    background:rgba(0,0,0,0.3);
+    width: 230px;
+    line-height: 26px;
+    font-family: 'Segoe UI',;
+    color:white;
+    margin:10px;
+}
+
+/* products page */
+
+
+.product-main{
+    display: inline-grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    width: 1459px;
+    height: 220vh;
+    margin: 20px;
+    background-color: rgba(7, 7, 7, 0.8);
+    text-align: center;
+}
+
+.txt4{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-decoration: underline;
+}
+
+/* products */
+
+.product1{
+    /* grid-auto-flow: column; */
+    display: grid;
+    margin: 10px;
+    width: 250px;
+    height: 500px;
+    background-color:rgba(251, 247, 247, 0.0);
+    border: 4px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.product1 img{
+    margin-top: 10PX;
+    width:230px;
+    height:200px;
+    border-radius: 9px;
+    justify-self: left;   
+}
+
+.txt3{
+    line-height:30px ;
+    color: white;
+}
+
+
+
+/* 
+
+
+.product2{
+    display: grid;
+    grid-auto-columns: auto;
+    margin-top: 15px;
+    margin: 10px;
+    width: 250px;
+    height: 500px;
+    background-color: blue;
+    border: 4px;
+    border-color: black;
+    border-radius: 10px;
+} */
+
+
+
+
+
+@media  screen and (max-width:983px) {
+    
+body{
+    object-fit: cover;
+    background-image: url(#);
+    background-size:contain;
+    background:red;
+    max-width: 789px;
+    height: 100vh;
+    
+}
+
+.navbar{
+    width: 932px;
+    justify-content: space-between;
+    height: 108px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.logo{
+    align-self: center;
+}
+.img1{
+   width: 105px;
+   font-size: 20px;
+   height: 105px;
+   margin: 5px;
+   border-radius: 50px
+}
+.lpage{
+    display: none;
+}
+
+.searchbox{
+    display: none;
+}
+
+.burger{
+    display: flex;
+    transform: rotate(90deg);
+}
+.msg{
+    width:977px;
+    display: grid;
+    line-height: 70px;
+}
+
+.container{
+    float: left;
+    width: 982px;
+    height: 528px;
+}
+.img2{
+    justify-self: center;
+}
+}
+
+@media screen and (max-width:500px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        max-width: 450px;
+        height: 100vh;
+    }
+    .navbar{
+        width: 381px;
+    }
+
+    .logo{
+        align-self: center;
+        font-size: 20px;
+    }
+    .img{
+        width: 50px;
+        height: 50px;
+        font-size: 9px;
+        border-radius: 30px;
+    }
+    .msg{
+        margin-left: 4px;
+        width: 429px;
+    }
+    
+    .container{
+        display: grid;
+        justify-content: center;
+        width: 427px;
+        height: 1500px;
+        float: none;
+    }
+   
+    
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-main{
+    display: flex;
+    position: relative;
+    margin-top: 300px;
+    width: 75vw;
+    height: 70vh;
+    background-color: white;
+}
